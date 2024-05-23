@@ -1,0 +1,25 @@
+{
+  "name": "stolfam/utils-php",
+  "license": "MIT",
+  "description": "PHP classes which may help and save your time.",
+  "version": "5.0.4",
+  "type": "library",
+  "require": {
+    "php": ">= 8.2",
+    "nette/utils": ">= 3.0",
+    "nette/caching": ">= 3.0"
+  },
+  "require-dev": {
+    "nette/tester": ">= 2.4"
+  },
+  "autoload": {
+    "classmap": ["src/"],
+    "files": ["src/bootstrap.php"]
+  },
+  "minimum-stability": "stable",
+  "config": {
+    "platform": {
+      "php": "8.2"
+    }
+  }
+}
